@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-family: "Courier New", monospace;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  color: #00ffcc;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+  margin: 0;
+  color: #00ffcc;
+}
+
+header p {
+  color: #b2fefa;
+}
+
+/* Main Content */
+main {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.game-container {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 2rem;
+  max-width: 650px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00ffcc;
+}
+
+/* Quote */
+#quote {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Textarea */
+textarea {
+  width: 100%;
+  height: 130px;
+  padding: 1rem;
+  font-size: 1rem;
+  background: #000;
+  color: #00ffcc;
+  border: 1px solid #00ffcc;
+  border-radius: 6px;
+  resize: none;
+}
+
+textarea::placeholder {
+  color: #66ffe0;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.stats span {
+  font-size: 0.9rem;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  background: #00ffcc;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #00e6b8;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #b2fefa;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .stats {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

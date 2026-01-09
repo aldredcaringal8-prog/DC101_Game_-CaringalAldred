@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Typing Speed Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Typing Speed Test</h1>
+    <p>Test your typing speed and accuracy</p>
+  </header>
+
+  <main>
+    <section class="game-container">
+      <p id="quote"></p>
+
+      <textarea
+        id="input"
+        placeholder="Start typing here..."
+        autofocus
+      ></textarea>
+
+      <div class="stats">
+        <span>Time: <strong id="time">60</strong>s</span>
+        <span>WPM: <strong id="wpm">0</strong></span>
+        <span>Accuracy: <strong id="accuracy">100</strong>%</span>
+      </div>
+
+      <button id="restart">Restart Test</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Typing Speed Test Game</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
