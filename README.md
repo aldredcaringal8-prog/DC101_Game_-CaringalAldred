@@ -6,3 +6,4 @@ HTML5,CSS3,JavaScript
 2.Open the project folder
 3.Double-click index.html or open it in any modern web browser
 4.Start typing to play the game
+https://github.com/aldredcaringal8-prog/DC101_Game_-CaringalAldred.git
